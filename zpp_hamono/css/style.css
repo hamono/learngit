@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.body{
+	position: absolute;
+	width: 1000px;
+	height: 600px;
+	top: 0px;
+	left: 0px;  
+	right: 0px;  
+	bottom: 0px; 
+	margin: auto; 
+	background-color: Silver;
+}
+.tip1{
+	color:white;
+	font:bold 50px 微软雅黑;
+	margin-left:50px;
+	margin-bottom:0px;
+	margin-top:80px;
+	/* background: black; */
+}
+.tip2{
+	float:left;
+	color:white;
+	font:30px 微软雅黑;
+	margin-left:50px;
+	margin-top:10px;
+	/* background: yellow; */
+}
+img{
+	/* float:right; */
+	position: absolute;
+	right:35px;
+	bottom:50px
+}
+.main_part{
+	color:white;
+	font: 25px 微软雅黑;
+	margin-left:70px;
+	margin-top:130px;
+	line-height: 60px;
+}
+.about_me{
+	/* font: 20px 微软雅黑; */
+	position: absolute;
+	right:40px;
+	top:30px;
+}
+.about_me li{
+	float:left;
+	margin-left:40px;
+}
+a{
+	font: 20px 微软雅黑;
+	text-decoration: none;
+	color:white;
+}
+#keyword{
+	color:white;
+	font:22px 微软雅黑;
+	margin-top:-1px;
+}
+a:hover{
+	color:DarkGray;
+}
